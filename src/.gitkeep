@@ -1,0 +1,9 @@
+python
+torch
+torchaudio
+torchvision
+ipykernel
+transformers
+gym
+huggingface-hub
+numpy
