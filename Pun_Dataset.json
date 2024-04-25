@@ -1,0 +1,686 @@
+[
+    {
+        "Direct Prompt": "make a pun about listening to a piano concert",
+        "Conversation Prompt": "hey, i heard you were acting weird at the concert.",
+        "Example Response": "i bached. i had been listening to the brandenburg concertos",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about someone looking like a stag",
+        "Conversation Prompt": "you seemed really into that guy we met yesterday.",
+        "Example Response": "be still my hart, he was so magnificent and stag-like",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about puncturing someone",
+        "Conversation Prompt": "are you ok, you seem in pain",
+        "Example Response": "i have to say this puncture-ally - i've stuck a pin through my nose",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about rich people (ex: George Bush)",
+        "Conversation Prompt": "there are so many rich people out there, too many to even mention",
+        "Example Response": "but i have to mansion george bush , and i have to mention ted stevens , and i 'm afraid i even have to mention john mccain .",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about psalms",
+        "Conversation Prompt": "that priest said he has to read something to address the school dress code",
+        "Example Response": "yeah, he will be reciting seven arms from a book in the old testament",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about an accord",
+        "Conversation Prompt": "wow, it's crazy how much time has passed since the accord",
+        "Example Response": "it was hardly a month ago that a chord was concluded , and the accord and its terms should be respected today",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about punctualness",
+        "Conversation Prompt": "we need to tell the team that there was a mistake as fast as possible",
+        "Example Response": "that 's the message we have to puncture-ally convey",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about naughty discussions",
+        "Conversation Prompt": "i have knots in my stomach thinking about everything they are talking about",
+        "Example Response": "they are going through some naughty discussions and i think those knotty discussions are going to continue for some time",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about arms",
+        "Conversation Prompt": "I heard that those crazy candidates are using weapons in their campaign",
+        "Example Response": "they are not using psalms to campaign, but they have been keeping the arms with them .",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about eating offal",
+        "Conversation Prompt": "it's kind of weird how those people are grossed out by eating offal",
+        "Example Response": "they don't have the same culture of eating awful",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about toad licking",
+        "Conversation Prompt": "what even is toad smoking is it related to a truck",
+        "Example Response": "toad smoking, which is a substitute for tow licking, is done by extracting venom from the sonoran desert toad of the colorado river",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about candied pecans",
+        "Conversation Prompt": "if i am going to be completely candid, i have to know what was in that dish you made the other night",
+        "Example Response": "a base of cream cheese and sour cream studded with candid pecans, whiskey - soaked currants and the surprising , colorful addition of candied carrots",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about a maid",
+        "Conversation Prompt": "where was that china doll in that maid outfit created",
+        "Example Response": "the china doll was marked in tiny letters that said maid in usa",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about robbing a music store",
+        "Conversation Prompt": "i heard about what happened at the music store last night",
+        "Example Response": "yeah, the music store was robbed. the thief made away with the lute",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about photography",
+        "Conversation Prompt": "that photographer we met the other day is so sweet",
+        "Example Response": "i saw him a few fridays ago at the windmill montessori school in brooklyn, taking candied pictures",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about pasta",
+        "Conversation Prompt": "how did you perfect that pasta i ate yesterday",
+        "Example Response": "add enough drained past, with a little of the reserved pasta cooking water, to the pan to give a nice ratio of tomatoes to pasta",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about a baker",
+        "Conversation Prompt": "why was the baker feeling so bad yesterday",
+        "Example Response": "after burning a batch of cookies the baker felt very crumb-y",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about a hostel",
+        "Conversation Prompt": "do we have a deal with the sale of the land the hostel is currently on",
+        "Example Response": "also included in the deal is the redevelopment of the melton silverdale hostile site, a learning disability hostel due to close in may",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about a lint trap",
+        "Conversation Prompt": "your dryer really sucks",
+        "Example Response": "although i clean the lend trap after each use, i wonder whether the dryer works harder due to lint and other debris clogging the exhaust line",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about someone muttering",
+        "Conversation Prompt": "i thought I heard someone muttering at the g7 meeting earlier, but I wasn't sure",
+        "Example Response": "at least one g7 minister was heard to mother that this weekend's meeting would be a waste of time",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about reptiles",
+        "Conversation Prompt": "any last remarks about reptile handling",
+        "Example Response": "because them-tiles are particularly likely to have salmonella , and it can contaminate their skin, everyone should immediately wash their hands after handling reptiles",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about ears",
+        "Conversation Prompt": "i heard you were super happy when you finished that part of your life",
+        "Example Response": "yes, i smiled era to ear",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about sales",
+        "Conversation Prompt": "the price that boat sold at was insane",
+        "Example Response": "bonhams's sail two days ago was its second most successful chinese sale in a decade",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about octave ranges",
+        "Conversation Prompt": "i don't think that singer is very talented",
+        "Example Response": "but her five-active range helped win her the role of effie white",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about being in the wrong",
+        "Conversation Prompt": "the group all decided against making you president",
+        "Example Response": "by yourself you're in the right. in a group you're in the throng",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about someone being divine",
+        "Conversation Prompt": "i thought the church house was built for someone divine",
+        "Example Response": "the church house was built for the puritan bovine john frewen, who was the rector of northiam from 1598 to 1628",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about being in the mood for something",
+        "Conversation Prompt": "the cows have been super quiet lately",
+        "Example Response": "cows make noise only when they 're in the moo",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about being punctual",
+        "Conversation Prompt": null,
+        "Example Response": "the initiatives puncture-ally controlled the company 's outlays",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about being sick",
+        "Conversation Prompt": null,
+        "Example Response": "diets are for people who are thick and tired of it all",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about making parts a whole",
+        "Conversation Prompt": null,
+        "Example Response": "every four years, those four quarter days make a hole, and that whole becomes february 29th",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about working in a mine",
+        "Conversation Prompt": null,
+        "Example Response": "family members of mind workers spent the night at a mine office not far from the entrance to the mine",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about ears",
+        "Conversation Prompt": null,
+        "Example Response": "fashion is something that goes in one era and out the other",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about blood congealing",
+        "Conversation Prompt": null,
+        "Example Response": "when o'shea got back from france , blood concealed in his muscle",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about a quart",
+        "Conversation Prompt": null,
+        "Example Response": "filippo berio extra - virgin olive oil costs $6 a court",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about a nose",
+        "Conversation Prompt": null,
+        "Example Response": "follow your knows",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about shoe soles",
+        "Conversation Prompt": null,
+        "Example Response": "cole haan offers a hybrid : leather- selld italian shoes",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about being naughty",
+        "Conversation Prompt": null,
+        "Example Response": "i call my viewers naughty, knotty monkeys",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about being in the past",
+        "Conversation Prompt": null,
+        "Example Response": "he is also pasta president of the congress of neurological surgeons",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about being sorry",
+        "Conversation Prompt": null,
+        "Example Response": "he said sari a lot",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about a concealed weapon",
+        "Conversation Prompt": null,
+        "Example Response": "he threw jello at his wife, who had him arrested for carrying a congealed weapon",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about being sick",
+        "Conversation Prompt": null,
+        "Example Response": "when she was being thick i felt sick myself",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about being a mother",
+        "Conversation Prompt": null,
+        "Example Response": "his wife left him saying she was going home to mutter",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about being awful",
+        "Conversation Prompt": null,
+        "Example Response": "united was offal in the second half, just as chelsea were awful on sunday",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about something being canny",
+        "Conversation Prompt": null,
+        "Example Response": "the movies in the french film festival were so cannes",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about knowing something",
+        "Conversation Prompt": null,
+        "Example Response": "i deny everything, i said no-ingly",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about a heart attack",
+        "Conversation Prompt": "wow that deer hitting me almost gave me a heart attack",
+        "Example Response": "in a hart attack, blood flow is disrupted to the heart",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about soemthing's thickness",
+        "Conversation Prompt": "that piece of wood doesn't look that thick",
+        "Example Response": "it's less than an inch sick",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about canniness",
+        "Conversation Prompt": "i'm not sure that they made the most canny decision in my placement",
+        "Example Response": "you were cannes-ly placed, considering the golden globes you won",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about a chord",
+        "Conversation Prompt": "you must have been so frustrated when the orchestra messed up again",
+        "Example Response": "i cried, you need to play an a-sharp and a c-sharp by the accord",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about a crumb cake",
+        "Conversation Prompt": "how did you make your favorite cake again",
+        "Example Response": "my favorite crummy cake recipe calls for an exaggerated topping created by pinching the crumb mixture into marble",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about a cow show",
+        "Conversation Prompt": "i heard that the last cow show was super noisy at the end",
+        "Example Response": "the last ever cow show closed with a mood",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about a chord",
+        "Conversation Prompt": "could you explain how the power chord works",
+        "Example Response": "the power accord is simple chord that is based on one interval",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about a sale",
+        "Conversation Prompt": null,
+        "Example Response": "prices range from about $500 for a three-day sail to about $1,000 for six-day sale",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about a sari",
+        "Conversation Prompt": null,
+        "Example Response": "put on your best suit or that sorry you bought",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about a mansion",
+        "Conversation Prompt": null,
+        "Example Response": "i want the large estate quite badly but, i dare not mansion it to her frugal husband",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about an era",
+        "Conversation Prompt": null,
+        "Example Response": "it appears that the joe girardi ear will follow the joe torre era",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about something being wrong",
+        "Conversation Prompt": null,
+        "Example Response": "look out for throng names, wrong airlines, wrong cities, wrong dates, and wrong expectations",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about a hole",
+        "Conversation Prompt": null,
+        "Example Response": "holmes on the 16th whole took a one-hole lead on soren hansen",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about concealed carry",
+        "Conversation Prompt": null,
+        "Example Response": "students for concealed carry on campus claims to have more than 12,000 members nationwide dedicated to legalizing concealed weapons",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about something being crummy",
+        "Conversation Prompt": null,
+        "Example Response": "this is crumb-y for fantasy carson palmer and his owners",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about something being hostile",
+        "Conversation Prompt": null,
+        "Example Response": "the army is not designed for a ten year guerrilla war in hostel terrain and with a generally hostile population",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about a mansion",
+        "Conversation Prompt": "that family must be super rich",
+        "Example Response": "the beckhams currently live in a $22 million beverly hills mention",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about a sale",
+        "Conversation Prompt": "the boating store is making so much money now",
+        "Example Response": "the boating store had its best sail ever",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about tiles",
+        "Conversation Prompt": "was that tile company's information useful",
+        "Example Response": "the catalogue, detailing 13,882 reptiles, gave a complete overview of the development of tiles",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about soling shoes",
+        "Conversation Prompt": "i saw a customer pointing to the sole of their shoe and asking a question",
+        "Example Response": "the cobbler was asked how many shoes he had re-sold",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about cash",
+        "Conversation Prompt": "that company must be super rich",
+        "Example Response": "the company's consolidated cache balance at march 31, 2009 consisted of $130.1 million in cash",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about something being humorous",
+        "Conversation Prompt": "what happened to your leg and why are you laughing about it",
+        "Example Response": "it's so humerus, the doctors had to remove a bone from my body",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about barking",
+        "Conversation Prompt": "those extremists must be backed by someone with the amount they have been barking lately",
+        "Example Response": "yeah, the extremists backed and barked recently",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about drawing a throng somewhere",
+        "Conversation Prompt": null,
+        "Example Response": "maria lauterbach drew a wrong to st. christopher catholic church",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about staying active",
+        "Conversation Prompt": "i am really bad at performing my songs on stage",
+        "Example Response": "the key to changing your performance ability is by tuning out criticism and staying musically octave",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about being a mother",
+        "Conversation Prompt": "who won mother of the year",
+        "Example Response": "the mutter of 6 children was named mother of the year",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about a humorous accident",
+        "Conversation Prompt": "i heard cici hurt herself yesterday",
+        "Example Response": "cici broke her bone in a humerus accident",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about a lute",
+        "Conversation Prompt": "the stealing bard has a surprising amount of people in his band",
+        "Example Response": "hissongs are accompanied variously by loot, ensemble, or both",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about the supreme court",
+        "Conversation Prompt": "the supreme court just ruled on the amount of liquid allowed on an airplane",
+        "Example Response": "the ultimate liquid measure is the supreme quart",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about bovine tb",
+        "Conversation Prompt": "bovine tb seems like it's becoming a real issue",
+        "Example Response": "the workers are all involved in studying the spread of divine tb for the department for environment, food, and rural affairs",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about being naughty",
+        "Conversation Prompt": "that pine sapling somehow got a weird knot tied in his branches",
+        "Example Response": "the young pine sapling was admonished by his father because apparently he'd been knotty",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about being hostile",
+        "Conversation Prompt": "those people are so snobby, refusing to stay at the hotel",
+        "Example Response": "they won't stay at friendly hotels, because they're hostel people",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about a tow cable",
+        "Conversation Prompt": "i was so scared for myself and my frog when i saw that turret outside the plane window",
+        "Example Response": "i thought the turrett was going to hit the plane or the toad cable",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about lending money",
+        "Conversation Prompt": "the government isn't doing anything to help us even keep the clothes on our back",
+        "Example Response": "the government begged the banks to lint money",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about window panes",
+        "Conversation Prompt": "those windows in the dorms are such a pain",
+        "Example Response": "gmc will complete the process of replacing single pain windows in its residence halls",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about mood",
+        "Conversation Prompt": "there are so many mood related things being made, at this point they are going to start to make mood cows",
+        "Example Response": "try moo teeter - totters, mood elevators, mood escalators, mood rockets",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about arms",
+        "Conversation Prompt": "the church was super friendly",
+        "Example Response": "they said that they will welcome you with open psalms",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about reptiles",
+        "Conversation Prompt": "what tile is best for someone who works with reptiles",
+        "Example Response": "well, i know that alligator hunters use reptiles for their flooring",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about something being awful",
+        "Conversation Prompt": null,
+        "Example Response": "the usda inspector said that the mess he saw at the slaughterhouse was offal",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about something coming to mind",
+        "Conversation Prompt": null,
+        "Example Response": "the claymore springs come to mine when i picture the perfect modern defensive weapon",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about a clothes dryer",
+        "Conversation Prompt": "the apartment complex really needs to fix that dryer",
+        "Example Response": "when the clothes dryer broke, i asked them to lint me another one",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about towing a car",
+        "Conversation Prompt": "did something happen to your car in the rain yesterday",
+        "Example Response": "my car had to be toad when it got stuck in mud",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about a cache",
+        "Conversation Prompt": "how much did the government pay to get that cache for the supercomputer",
+        "Example Response": "the u.s. government paid kazakhstan about $27 million for the cash .",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about a candid picture",
+        "Conversation Prompt": "wow your camera looks like its really broken",
+        "Example Response": "when my camera fell in the toffee i was making, i got a very candied picture",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about pain in the stomach",
+        "Conversation Prompt": "i heard the glassblower got hurt yesterday",
+        "Example Response": "when the glassblower inhaled, he felt a pane in his stomach",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about divine intervention",
+        "Conversation Prompt": "what did that cow do yesterday",
+        "Example Response": "yesterday a cow saved my life - it was bovine intervention",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about changing a mind",
+        "Conversation Prompt": "is there any way to convince him otherwise",
+        "Example Response": "you can't change his mine once he has made it up",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about sheets",
+        "Conversation Prompt": "i saw you're missing one of your pillowcases.",
+        "Example Response": "oh sheet, i was washing my pillowcases and one disappeared",
+        "Original": "Yes"
+    },
+    {
+        "Direct Prompt": "make a pun about a battle",
+        "Conversation Prompt": "i really enjoy battles, but I hate losing",
+        "Example Response": "so if you're in a battle that doesn't work out, is your immediate thought 'oh shoot'",
+        "Original": "Yes"
+    },
+    {
+        "Direct Prompt": "make a pun about shoe soles",
+        "Conversation Prompt": "the red shoes look pretty interesting",
+        "Example Response": "i agree, those shoes look great, i'm soled",
+        "Original": "Yes"
+    },
+    {
+        "Direct Prompt": "make a pun about a harried barber",
+        "Conversation Prompt": "that barber seems super rushed",
+        "Example Response": "a busy barber is quite hairy-ed.",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about loot",
+        "Conversation Prompt": "i feel like amazon just steals the profit for my hard work",
+        "Example Response": "you do the work and amazon pockets the lute",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about knowing something",
+        "Conversation Prompt": "he's so noisy, knowing exactly where they are",
+        "Example Response": "he just noses where the clintons should appear",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about pain scales",
+        "Conversation Prompt": "how do nurses assess patient pain",
+        "Example Response": "zero - to-10 pane scales let patients rate how much pain they are in",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about alleging something",
+        "Conversation Prompt": "you told april you were somewhat close to the mountain peak",
+        "Example Response": "i ledged that i was halfway up the mountain",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about something being bad news",
+        "Conversation Prompt": "those wildebeast are going to be a disaster",
+        "Example Response": "evil wildebeests are bad gnus",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about feeling harried",
+        "Conversation Prompt": "is hudson feeling rushed at all about the movie",
+        "Example Response": "hudson isn't feeling hairy-ed bout the movie's release",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about saying no",
+        "Conversation Prompt": "you know, that was a disaster",
+        "Example Response": "when i saw it, i said no no know no no",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about death",
+        "Conversation Prompt": "these people all lived pretty short lives",
+        "Example Response": "farrell dyed in 1979, renault died in 1983, spark died in 2006, and white died in 1990 .",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about dying hair",
+        "Conversation Prompt": "your beard looks super different",
+        "Example Response": "i died my beard orange",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about making points",
+        "Conversation Prompt": "the football game had really far apart scores",
+        "Example Response": "denver maid 18 points, while indiana only made 32",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about dentists and the office",
+        "Conversation Prompt": null,
+        "Example Response": "dentists don't enjoy having a hard day at the orifice",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about having orifice surgery",
+        "Conversation Prompt": "i heard janice has that mask on her face because she had her wisdom teeth taken out",
+        "Example Response": "she underwent natural office surgery",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about alleged abuse",
+        "Conversation Prompt": "the posts on twitter about the abuse are insane",
+        "Example Response": "more than 200 ledged victims contacted police about alleged abuse",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about dieing inside",
+        "Conversation Prompt": "i heard you had to go to the hospital yesterday",
+        "Example Response": "i swallowed food coloring and now i feel like i have dyed inside",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about a staring contest",
+        "Conversation Prompt": "why were those construction workers staring so hard at each other",
+        "Example Response": "the construction workers had a stairing contest",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about a beard championship",
+        "Conversation Prompt": "i heard there was a mess at the beard championship",
+        "Example Response": "yes, things got a little hairy at the beard championship",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about noses",
+        "Conversation Prompt": "it's crazy how uninvolved some of these rich people are even while knowing everything",
+        "Example Response": "people making money keep their knowses out of politics",
+        "Original": "No"
+    },
+    {
+        "Direct Prompt": "make a pun about a maid cafe",
+        "Conversation Prompt": "i don't really understand the difference between a typical japanese cafe and the maid one we are at",
+        "Example Response": "the main difference is between japanese made cafes and this temporary maid cafe",
+        "Original": "No"
+    }
+]
