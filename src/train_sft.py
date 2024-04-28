@@ -2,7 +2,7 @@ import click
 import torch
 from trainers import SFTTrainer
 from gpt import GPT
-from dataset import EYLSFTStaticDataset
+from dataset import PunStaticDataset
 from configs import get_configs
 
 
@@ -16,11 +16,11 @@ def train(pretrain, batch_size, exp_name):
     cfg.exp_name = exp_name
 
     model = GPT.from_pretrained(cfg)
-    train_ds = EYLSFTStaticDataset(block_size=1024,
+    train_ds = PunStaticDataset(block_size=1024,
                                    split='train',
                                    max_examples=None,
                                    tokenizer_name="tiktoken/gpt2")
-    test_ds = EYLSFTStaticDataset(block_size=1024,
+    test_ds = PunStaticDataset(block_size=1024,
                                   split='test',
                                   max_examples=None,
                                   tokenizer_name="tiktoken/gpt2")

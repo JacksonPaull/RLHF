@@ -290,3 +290,63 @@ class AnthropicHHRLHFDataset(Dataset):
 
     def __getitem__(self, idx):
         return self.pairs[idx], self.masks[idx]  # (2, T), (2, T)
+    
+
+
+class PunStaticDataset(Dataset):
+
+    def __init__(self,
+                 block_size,
+                 split='train',
+                 max_examples=None,
+                 tokenizer_name='tiktoken/gpt2') -> None:
+        super().__init__()
+
+        with open("./Pun_Dataset.json") as fp:
+            dataset = json.load(fp)
+        self.tokens = []
+        self.block_size = block_size
+        if tokenizer_name == "huggingface/gpt2":
+            tokenizer = GPT2Tokenizer.from_pretrained('gpt2')
+            tokenizer.pad_token = tokenizer.eos_token
+        elif tokenizer_name == "huggingface/gpt2fast":
+            tokenizer = GPT2TokenizerFast.from_pretrained('gpt2')
+        elif tokenizer_name == "tiktoken/gpt2":
+            tokenizer = TiktokenTokenizer('gpt2')
+
+        cnt = 0
+        i = 0
+        print(f"Loading Pun Dataset {split} split")
+        if split == 'test':
+            i = int(0.9*len(dataset)) + 1
+
+        while i < len(dataset):
+            chosen = dataset[i]
+            i +=1
+            cnt += 1
+
+            response_text = 'Human: ' + chosen['Direct Prompt']
+            if chosen['Conversation Prompt']:
+                response_text += '\n\nAssistant: Sure thing!\nA: ' + chosen['Conversation Prompt'] 
+                response_text += '\nB: '+ chosen['Example Response'] + "<|endoftext|>"
+            else:
+                response_text += '\n\nAssistant: ' + chosen['Example Response'] + "<|endoftext|>"
+                
+            response = tokenizer(response_text)
+
+            self.tokens += response['input_ids']
+            if (max_examples and cnt >= max_examples) or (i > int(len(dataset)*0.9) and split=='train'):
+                break
+
+        self.tokens = torch.tensor(self.tokens, dtype=torch.long)
+        print(f"Loaded {len(self.tokens)} tokens from {cnt} examples.")
+
+    def __len__(self):
+        import sys
+        return sys.maxsize
+
+    def __getitem__(self, idx):
+        start = random.randint(0, len(self.tokens) - self.block_size - 2)
+        x = self.tokens[start:start + self.block_size]
+        y = self.tokens[start + 1:start + self.block_size + 1]
+        return x, y
