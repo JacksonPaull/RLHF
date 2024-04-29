@@ -9,7 +9,7 @@ from configs import get_configs
 def train(pretrain, batch_size, exp_name):
     device = 'cuda'
     cfg = get_configs("gpt2-medium/lora")
-    cfg.max_steps = 100 // batch_size # TODO Increase max_steps
+    cfg.max_steps = 100000 // batch_size # TODO Increase max_steps
     cfg.batch_size = batch_size
     cfg.pretrain = pretrain
     assert pretrain == "huggingface"

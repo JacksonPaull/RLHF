@@ -4,6 +4,7 @@ from trl import DPOTrainer
 from configs import get_configs
 from gpt import GPTActor, GPTRewardModel, GPTCritic
 from dataset import DahoasSFTStaticPromptsDataset
+from tokenizer import TiktokenTokenizer
 
 
 def train(batch_size, exp_name, model_weights):
@@ -30,7 +31,7 @@ def train(batch_size, exp_name, model_weights):
         tokenizer = tokenizer
     )
     trainer.train()
-    trainer.save_model('./output_dir')
+    trainer.save_model('./runs')
 
 
 @click.command()

@@ -263,8 +263,6 @@ class RewardModelTrainer(Trainer):
                 if total_steps != 0 and total_steps % self.save_freq == 0:
                     self.save_states(total_steps)
 
-                break # TODO Remove this
-
             if epoch % self.eval_freq == 0:
                 opt_model.eval()
                 with torch.no_grad():
