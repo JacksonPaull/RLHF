@@ -36,7 +36,27 @@ def train(batch_size, exp_name, actor_weights, critic_weights):
                                             max_examples=None,
                                             tokenizer_name="tiktoken/gpt2")
     trainer = PPOTrainer(cfg, actor, critic, reward_model, sft_model, dataset)
-    trainer.fit()
+    # Training loop
+    for iteration in range(cfg.num_iterations):
+        for actor_step in range(cfg.num_actors):
+            # Generate sequence with actor LoRA weights
+            sequence, log_probs, _ = trainer.generate_with_actor(sequence_length=cfg.sequence_length)
+
+            # Evaluate sequence with critic LoRA weights
+            critic_values = trainer.evaluate_with_critic(sequence)
+
+            # Compute rewards and reference log probabilities (LoRA off)
+            rewards, ref_log_probs = trainer.compute_rewards_and_ref(sequence)
+
+            # Calculate advantages
+            advantages = trainer.compute_advantages(rewards, critic_values)
+
+            # Optimize policy
+            trainer.optimize_policy(log_probs, advantages)
+
+            # Update old policy weights
+            trainer.update_old_policy()
+    #trainer.fit()
 
 
 @click.command()

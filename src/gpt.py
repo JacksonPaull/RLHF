@@ -3,7 +3,7 @@ import torch
 from torch import nn
 from torch import Tensor
 from torch.nn import functional as F
-from transformers import GPT2Model
+from transformers import GPT2Model, GPT2Config
 from transformers.modeling_outputs import BaseModelOutputWithPastAndCrossAttentions
 import loralib as lora
 from configs import TrainingConfig # , get_configs
@@ -220,14 +220,38 @@ class GPT(nn.Module):
             self.lm_head = nn.Linear(cfg.embedding_dim,
                                      cfg.vocab_size,
                                      bias=False)
+        self.gpt2 = GPT2Model.from_pretrained(cfg.model_name)
+        self.lora = lora.LoRA(self.gpt2.config.n_embd, cfg.lora_rank, cfg.lora_scale) if cfg.lora_rank > 0 else None
+        self.actor_head = nn.Linear(self.gpt2.config.n_embd, self.gpt2.config.vocab_size)
+        self.critic_head = nn.Linear(self.gpt2.config.n_embd, 1)
+        self.use_lora = cfg.use_lora
+        self.lora_enabled = True
 
-    def forward(self, x: Tensor, attention_mask: Tensor = None):
+    def forward(self, input_ids, attention_mask=None, use_critic=False):
         """
         x: Shape of (B, T)
         """
-        x = self.transformer(x, attention_mask)  # x = (B, T, embedding_dim)
-        logits = self.lm_head(x)  # logits = (B, T, voca_size)
-        return logits
+        outputs = self.gpt2(input_ids, attention_mask=attention_mask)
+        last_hidden_state = outputs.last_hidden_state
+        
+        if self.use_lora and self.lora_enabled:
+            last_hidden_state = self.lora(last_hidden_state)
+        
+        if use_critic:
+            return self.critic_head(last_hidden_state)
+        else:
+            return self.actor_head(last_hidden_state)
+    
+    def enable_lora(self, enable=True):
+        self.lora_enabled = enable
+
+    def get_actor_logits(self, input_ids, attention_mask=None):
+        self.enable_lora(True)
+        return self(input_ids, attention_mask, use_critic=False)
+
+    def get_critic_value(self, input_ids, attention_mask=None):
+        self.enable_lora(False)
+        return self(input_ids, attention_mask, use_critic=True)
 
     @classmethod
     def from_checkpoint(cls,

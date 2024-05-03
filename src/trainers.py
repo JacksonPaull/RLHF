@@ -348,6 +348,12 @@ class PPOTrainer(Trainer):
         self.dtype = torch.float16
         self.tokenizer = TiktokenTokenizer("gpt2")
         self.finetune_method = cfg.finetune_method
+        
+        self.model = model
+        self.config = config
+        self.optimizer = optim.Adam(model.parameters(), lr=config.learning_rate)
+        self.policy_loss_func = PolicyLoss()
+        self.value_loss_func = ValueLoss()
 
         hp = {
             "max_new_tokens": self.max_new_tokens,
@@ -359,6 +365,38 @@ class PPOTrainer(Trainer):
         self.save_hyperparams(hp)
         print("Initialized PPO Trainer")
 
+    def generate_with_actor(self, sequence_length):
+        # Assume method to generate sequences using the actor head
+        # Placeholder for actual sequence generation logic
+        return torch.randn((1, sequence_length, self.model.gpt.config.n_embd)), torch.randn((1, sequence_length)), None
+
+    def evaluate_with_critic(self, sequence):
+        # Evaluate the sequence with the critic head
+        self.model.enable_lora(False)  # Turn off LoRA for critic evaluation
+        return self.model.get_critic_value(sequence)
+
+    def compute_rewards_and_ref(self, sequence):
+        # Compute rewards and reference probabilities
+        # Placeholder for actual reward computation
+        return torch.randn(sequence.size(0)), torch.randn(sequence.size(0))
+
+    def compute_advantages(self, rewards, critic_values):
+        # Compute advantages using rewards and critic estimates
+        # Placeholder for actual advantage computation
+        return rewards - critic_values
+
+    def optimize_policy(self, log_probs, advantages):
+        # Optimize the policy network
+        self.model.enable_lora(True)  # Ensure LoRA is enabled for actor updates
+        policy_loss = self.policy_loss_func(log_probs, advantages)
+        self.optimizer.zero_grad()
+        policy_loss.backward()
+        self.optimizer.step()
+
+    def update_old_policy(self):
+        # Update the old policy weights if necessary
+        pass  # Placeholder for actual policy weight update logic
+    
     def save_states(self, step, is_last=False):
         file_name = f'{self.run_name}_actor_final.pt' if is_last else f'{self.run_name}_actor_step{step}.pt'
         torch.save(
