@@ -349,9 +349,8 @@ class PPOTrainer(Trainer):
         self.tokenizer = TiktokenTokenizer("gpt2")
         self.finetune_method = cfg.finetune_method
         
-        self.model = model
-        self.config = config
-        self.optimizer = optim.Adam(model.parameters(), lr=config.learning_rate)
+        self.model = sft_mdodel
+        self.optimizer = optim.Adam(sft_model.parameters(), lr=5e-6)
         self.policy_loss_func = PolicyLoss()
         self.value_loss_func = ValueLoss()
 
