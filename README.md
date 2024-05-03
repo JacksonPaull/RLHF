@@ -18,7 +18,7 @@ src # Source directory, housing all source code
   |_train_sft.py #SFT Training Script
   |_trainers.py #Training Loops + Other Trainers
 
-res # Resouces directory, housing training data and results
+res # Resources directory, housing training data and results
 
 requirements.txt # library requirements to be installed with either pip or conda. Note: pytorch installation method may vary by platform
 
@@ -32,10 +32,10 @@ requirements.txt # library requirements to be installed with either pip or conda
 5. Start RLHF with the reward and SFT models with python train_rm.py -b batch_size -n experiment_name -a "./runs/path/to/sft/weights" -c "./runs/path/to/reward_model/weights" -s naive
 
 ## Youtube Video
-//TODO Add link to unlisted youtube video
+[Video Here](https://youtu.be/20EDtj7_gqw)
 
 ## Written Report
-//TODO Add link to finalized report
+[Report Here](https://drive.google.com/file/d/1SY5hWAAq15JobybIyKJVIGtTXOTybPym/view?usp=sharing)
 
 ## Acknowledgements 
 [1] Yuntao Bai, Andy Jones, Kamal Ndousse, Amanda Askell, Anna Chen, Nova DasSarma, Dawn
